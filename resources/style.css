@@ -1,0 +1,23 @@
+header{
+    display: inline-flex;
+    font-family: Verdana;
+    font-size: 14px;
+    color: mediumaquamarine;
+    font-weight: bold;
+    width:100%;
+    height:auto;
+    border: 1px solid black;
+}
+.logo {
+   justify-content:flex-start;
+    padding: 5px 5px 5px 20px;
+    }
+.title {
+    margin: 2px;
+    align-items: center;
+    width: auto;
+    border: 1px solid black;
+    }
+.nav {
+    display
+}
