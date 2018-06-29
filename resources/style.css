@@ -43,22 +43,15 @@ a {
     color: black;
 }
 
-p{
-    margin: 10px;
+h2{
+    margin: 0px 10px
 }
 
-xxspan {
-    font-family: georgia;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: left;
-}
 .content{
     display: flex;
     width: 100%;
-    margin: 10px auto;
-    padding-top:10px;
-    border: 10px solid yellow;
+    justify-content: center;
+    margin: 35px 10px 5px 45px;
 }
 
 .column {
@@ -68,8 +61,7 @@ xxspan {
 }
 .column.large {
     width: 630px;
-    justify-content: center;
-    border: 5px solid red;
+    align-content: flex-start;
 
 }
 .main-story{
@@ -82,14 +74,13 @@ xxspan {
     font-size: 40px;
     height: 300px;
 }
-.image-title{
+.main-title{
     font-family: Georgia;
     font-weight: bold;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 .main-article{
-    border: 3px solid pink;
     display: flex;
     font-family: georgia;
     color: black;
@@ -99,59 +90,111 @@ xxspan {
 }
 .snippets{
     display: flex;
-    justify-content: space-between;
-    margin-top: 17px;
-    border: 10px solid black;
+    margin: 5px;
+
 }
 .article{
-    border: 3px solid orange;
-    margin: 5px;
+    display:flex;
+    flex-direction: column;
+    margin: 15px 10px;
+
+    height:auto;
+}
+.article1{
+     display:flex;
+    flex-direction: column;
+    margin: 15px 20px 15px 1px;
+
+    height:auto;
+}
+.article2{
+     display:flex;
+    flex-direction: column;
+    margin: 15px 10px 15px 1px;
+
+    height:auto;
 }
 .article-content{
     font-family: georgia;
     font-size: 17px;
     color: black;
+
     margin-bottom: 5px;
+    padding-bottom: 10px;
+
 }
 .image-title{
     color: white;
     font-family: georgia;
     font-size: 30px;
     font-weight: bold;
+    margin: 10px 15px;
 }
 .earth {
     background: url(season-story-2.png) no-repeat center;
-    border: 5px dotted black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
     height: 300px;
+    align-items: flex-end;
 }
 .camera {
     background: url(camera-story-3.png) no-repeat center;
-    border: 5px dotted black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: 300px;
 }
 .column.medium{
     width: 300px;
-    border: 5px solid green;
 }
 .cats{
     display:flex;
-    background: url(cats-story-1.png);
+    flex-direction: column;
+    background: url(cats-story-1.png)no-repeat center;
     height:300px;
 }
 .column.small {
     width: 240px;
-    border: 5px solid purple;
 }
 .cookie{
     display: flex;
-    background: url(cookie-news-bite.png);
+    flex-direction: column;
+    background: url(cookie-news-bite.png) no-repeat center;
     height: 300px;
-    border: 5px solid orange;
+}
+.news-bites h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.bite{
+    display: block;
+    background-color: whitesmoke;
+    font-family: verdana;
+    font-size: 12px;
+    padding: 10px 20px;
+    color: dimgray;
+    border-bottom: 1px solid black;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    background-color: mediumaquamarine;
+    margin: auto;
+    font-family: verdana;
+    font-size: 12px;
+}
+.info{
+    display:block;
+}
+.mytimes{
+    font-family: georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    height: 20px;
+    border-right: 1px solid white;
 }
